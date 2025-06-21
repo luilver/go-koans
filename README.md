@@ -28,7 +28,8 @@ choice from the [Downloads page](https://golang.org/dl/).
 ## Docker Usage
 
 ```shell
-$ ./docker.sh
+$ docker build . -t go-koans
+$ docker run -it go-koans go test ./...
 ```
 
 ## Helpful References
